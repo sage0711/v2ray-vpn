@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/group_main">
+        <item
+            android:id="@+id/sshcon"
+            android:icon="@drawable/ic_settings_white_24dp"
+            android:title="SSH Settings" />
+        <item
+            android:id="@+id/psiphoncon"
+            android:icon="@drawable/ic_settings_white_24dp"
+            android:title="Psiphon Settings" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings_white_24dp"
+            android:title="V2Ray Settings" />
+        <item
+            android:id="@+id/sub_setting"
+            android:icon="@drawable/ic_subscriptions_white_24dp"
+            android:title="@string/title_sub_setting" />
+        <item
+                android:id="@+id/user_asset_setting"
+                android:icon="@drawable/donate"
+                android:title="@string/title_user_asset_setting" />
+        <item
+            android:id="@+id/logcat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_logcat_white_24dp"
+            android:title="@string/title_logcat" />
+    </group>
+</menu>
